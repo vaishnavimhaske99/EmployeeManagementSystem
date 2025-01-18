@@ -1,0 +1,26 @@
+<p>Add Employee</p>
+<form #Employeeform="ngForm" action="" (ngSubmit)="employeeRegister(Employeeform)">
+    <h1>Fill Employee Sign-Up Form</h1>
+
+    <div>
+        <label for="">EmployeeId:</label>
+        <input type="text" #id name="id" (ngModel)="id" class="form-control">
+    </div><br>
+    <div>
+        <label for="">Employee NAme:</label>
+        <input type="text" #fname name="fname" (ngModel)="fname" class="form-control">
+    </div><br>
+   <div>
+        <label for="">Department:</label>
+        <input type="text" #depart name="depart" (ngModel)="depart" class="form-control">
+    </div><br>
+  
+    <div>
+        <label for="">Email:</label>
+        <input type="text" #city name="city" (ngModel)="city" class="form-control">
+    </div><br>
+    <button class="btn btn-primary">Reset</button>&nbsp;&nbsp;
+    <button class="btn btn-primary">submit</button>
+    
+   
+</form>

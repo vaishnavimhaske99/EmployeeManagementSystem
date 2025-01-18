@@ -1,0 +1,29 @@
+<p>get-employee</p>
+<table class="table table-bordered table-hover text-center">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Employee Name</th>
+            <th>Department</th>
+
+            <th>Email</th>
+            <th>Action</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let u of employeeArray  | paginate:{itemsPerPage:5, currentPage:p}">
+            <td>{{u.id}}</td>
+            <td>{{u.fname}}</td>
+            <td>{{u.depart}}</td>
+            <td>{{u.city}}</td>
+            <td><button class="btn btn-danger" (click)="deleteEmployee(u.id)"><i class="bi bi-trash3-fill"></i>Delete</button> &nbsp; &nbsp;<button class="btn btn-success" (click)="update(u.id)"><i class="bi bi-pencil-fill"></i>Edit</button></td>
+        </tr>
+    <button class="btn btn-success" (click)="addEmp1(employeeArray.id)"><i class="bi bi-file-earmark-plus-fill"></i>Add-Emp</button>
+
+    </tbody>
+
+
+</table>
+
+<pagination-controls style="float:right;" (pageChange)="p=$event"></pagination-controls>

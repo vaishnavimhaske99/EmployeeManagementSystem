@@ -1,0 +1,52 @@
+{
+  "Employees": [
+    {
+      "id": "2",
+      "fname": "VaishnaviMhaske",
+      "depart": "Electrical",
+      "city": "vaishnavi@gamil.com"
+    },
+    {
+      "id": "4",
+      "fname": "Madhuri",
+      "depart": "TEsting",
+      "city": "Nadhuri@gmail.com"
+    },
+    {
+      "id": "5",
+      "fname": "neha",
+      "depart": "Electrical",
+      "city": "neha@gmail.com"
+    },
+    {
+      "id": "6",
+      "fname": "Sachin11111",
+      "depart": "Electrical",
+      "city": "sachin@gmail.com"
+    },
+    {
+      "id": "6",
+      "fname": "Sachin11111",
+      "depart": "Electrical",
+      "city": "sachin@gmail.com"
+    },
+    {
+      "id": "7",
+      "fname": "Mahesh",
+      "depart": "Computer",
+      "city": "mahesh@gmail.com"
+    },
+    {
+      "id": "6",
+      "fname": "Vishal",
+      "depart": "Computer",
+      "city": "vishal@gmail.com"
+    },
+    {
+      "id": "6",
+      "fname": "Vishal",
+      "depart": "Computer",
+      "city": "vishal@gmail.com"
+    }
+  ]
+}

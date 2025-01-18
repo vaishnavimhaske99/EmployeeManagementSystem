@@ -1,0 +1,20 @@
+h1{
+    padding-top: 3%;
+    text-align:center;
+    color:blue;
+
+}
+
+form{ 
+    padding: 3% 30% 30% 30%;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+.container{
+    height: 10%;
+    width: 80%;
+}
+p{
+    text-align: center;
+}
