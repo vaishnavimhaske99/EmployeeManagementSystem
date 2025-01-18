@@ -56,6 +56,7 @@ Before running the project, make sure you have the following installed:
 
 ## Start the Backend (JSON Server)
 -The Angular application relies on a mock backend to simulate employee data. To start the backend, run the following command in a terminal:
+
 ```bash
 json-server --watch db.json --port 3000
 
@@ -63,14 +64,13 @@ json-server --watch db.json --port 3000
 -ng serve
 In a separate terminal window, run the following command to start the Angular development server:
 
-```bash Copy
 
+```bash Copy
 ng serve
 
 This will compile and serve the Angular application. The application will be accessible at:
 
-bash Copy
-
+```bash Copy
 http://localhost:4200/
 
 The Angular application will automatically reload if you make changes to any source files.
