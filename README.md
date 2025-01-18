@@ -55,7 +55,8 @@ Before running the project, make sure you have the following installed:
   npm install -g @angular/cli
 
 ## Start the Backend (JSON Server)
--The Angular application relies on a mock backend to simulate employee data. To start the backend, run the following command in a terminal:
+
+The Angular application relies on a mock backend to simulate employee data. To start the backend, run the following command in a terminal:
 
 ```bash
 json-server --watch db.json --port 3000
